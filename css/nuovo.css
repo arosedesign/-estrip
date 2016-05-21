@@ -1,0 +1,152 @@
+.blcatti {
+    margin-bottom: 10px;
+}
+
+.blcatti a {
+    color: #333;
+   text-decoration: underline;
+    
+}
+
+.solomobile {
+    display: none;
+}
+
+.tit-att {
+  width: 55%;
+  float: left;
+}
+
+.primariga  {
+    cursor: pointer;
+}
+
+.primariga p.tit-att a {
+color: #000;
+}
+
+.primariga p.tit-att a:hover {
+color: #f7c311;
+}
+
+
+.tit-qua {
+  width: 18%;
+  float: left;
+  margin-left: 1%;
+}
+
+.intestazione {
+    background: #333;
+    margin: 25px 0 10px 0;
+     padding: 5px;
+}
+
+.intestazione p {
+    text-transform: uppercase;
+    font-size: 14px;
+   
+    color: #fff;
+}
+
+.infoaggiu {
+    display: inline-block;
+    width: 30%;
+}
+
+.blcatti {
+    background: #ddd;
+    border: solid 1px #ddd;
+    padding: 5px; 
+}
+
+.secondariga {
+    background: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    display: none;
+}
+
+.primoblc {
+    display: block;
+}
+
+.sparisci {display:none !important}
+.compari {display:inherit !important}
+
+
+.evid {
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.infodisx {
+    margin-bottom: 15px;
+}
+
+.btndidx a {
+    background: #f7c311;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+
+@media screen and (max-width: 700px) { 
+.infoaggiu {
+    display: block;
+    width:100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.btndidx {
+    text-align: center
+}
+}
+@media screen and (max-device-width: 600px) { 
+ .infoaggiu {
+    display: block;
+    width:100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.btndidx {
+    text-align: center
+}
+}
+    
+@media screen and (max-width: 450px) { 
+.solomobile {
+    display: inline;
+}
+.intestazione {
+    display: none;
+}
+    
+.tit-att {
+  width: 90%;
+  float: none;
+    text-align: center
+}
+.tit-qua {
+  width: 45%;
+  float: none;
+    display: inline-block;
+  margin-left: 1%;
+    margin-top: 20px;
+}
+    
+.primariga {
+    text-align: center;
+}
+
+}
+@media screen and (max-device-width: 450px) { 
+.solomobile {
+    display: block;
+}
+
+}
