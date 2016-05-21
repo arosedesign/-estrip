@@ -65,7 +65,7 @@ HEADER
   margin-top: 20px;
   min-height: 80px;
 }
-.logo {float: left;    max-width: 300px;}
+.logo {float: left;   }
 .logosvg {width: 100%;}
 .menu {float: right; margin-top: 20px;}
 .nav li {display: inline-block; margin-right: 25px;vertical-align: top;}
